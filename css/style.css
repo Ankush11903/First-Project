@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h2{
+    padding-bottom: 25px;
+}
+.btn{
+    padding: 13px 20px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background: rgb(32, 32, 31);
+    color: rgb(155, 155, 99);
+
+}
+
+.text-primary{
+    color: rgb(155, 155, 99);
+}
+p{
+    margin: 10px 0;
+}
+#navbar{
+    /* position: sticky; */
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+} 
+#navbar h1{
+    float: left;
+    padding-top: 22px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    text-align: center;
+    display: block;
+    padding: 25px;
+}
+#navbar ul li a:hover{
+    background: #444;
+    color: rgb(155, 155, 99);
+}
+#showcase{
+    background: url('../img/home.jpg') no-repeat center center/cover;
+    height: 500px;
+}
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+
+}
+.bg-dark{
+    background: #333;
+    color: #f4f4f4;
+}
+.bg-light{
+   background:  #f4f4f4;
+   color: #333;
+}
+.bg-primary{
+   background:  rgb(155, 155, 99);
+    color:  #333;
+}
+.clr{
+    clear: both;
+}
+/* home info */
+#home-info{
+    height: 400px;
+}
+#home-info .info-img{ 
+    float: left;
+    width: 50%;
+    background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/60/4e/ef/image-hotel-resto.jpg?w=900&h=-1&s=1') no-repeat;
+    height: 100%;
+}
+#home-info .info-content{ 
+    float: right;
+    width: 50%;
+    /* color: black; */
+    height: 100%;
+    /* background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/60/4e/ef/image-hotel-resto.jpg?w=900&h=-1&s=1') no-repeat; */
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    /* min-height: 100%; */
+}
+#home-info .info-content p{
+    padding: 30px;
+}
+.box{
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    padding: 30px;
+}
+.box i{
+    margin-bottom: 10px;
+}
+.l-heading{
+    font-size: 40px;
+}
+/* about*/
+#about-info .info-right{
+    padding: 30px 0;
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+#about-info .info-left{
+    padding: 30px 0;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+/* testi */
+#testi{
+    height: 600px;
+    background: url('../img/boxed-water-is-better-X5UrOwSCYYI-unsplash.jpg')no-repeat center center/cover;
+    padding-top: 100px;
+}
+#testi h2{
+    color: #333;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+#testi .person img{
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#testi .person{opacity: 0.9;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 99%;
+}
+/* contact-us */
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+    border: #ddd solid;
+    width: 100%;
+    padding: 10px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color:  rgb(155, 155, 99);
+}
+#contact-form textarea{
+    height: 200px;
+}
+/* footer */
+#page-footer{
+    padding: 10px;
+    background: rgb(7, 7, 7);
+    text-align: center;
+    color: rgb(155, 155, 99);
+}
+
